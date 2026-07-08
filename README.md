@@ -156,6 +156,35 @@ Generated outputs include:
 - Real-time review prediction
 
 ---
+## Manual Working
+
+This repository also includes a manual implementation of the Naive Bayes text classification process prepared as part of the academic case study. The manual working demonstrates each step of the algorithm and helps in understanding how the classifier works before implementing it in Python.
+
+The workbook contains the following worksheets:
+
+**Question** -	Contains the original case study problem statement along with the Amazon customer review dataset used for the classification task.
+**Preprocessing** - 	Shows the text preprocessing steps performed on the reviews, including cleaning, tokenization, stop-word removal, and preparation of text for feature extraction.
+**Naive Bayes Classification** -	Demonstrates the manual calculation of the Naive Bayes classifier, including vocabulary construction, feature representation, probability calculations, and prediction of the unknown reviews.
+**Desired Class** -	Contains the expected (reference) class labels for the unknown reviews, which are used to verify the correctness of the manual calculations and Python implementation.
+
+The manual calculations complement the Python implementation and provide a step-by-step explanation of the text classification workflow using the Multinomial Naive Bayes algorithm.
+
+---
+
+## Result Comparison
+
+The manual calculation and the Python implementation produced different prediction results for the two unknown reviews.
+
+This difference is expected because the two approaches do not use exactly the same feature representation and probability estimation methods.
+
+- The manual calculation follows the step-by-step procedure provided in the academic workbook.
+- The Python implementation uses TF-IDF Vectorization with Multinomial Naive Bayes from the Scikit-learn library.
+- TF-IDF assigns different weights to words based on their importance, whereas the manual method relies on manually computed word frequencies and probabilities.
+- Consequently, slight differences in probability values and final class predictions may occur.
+
+The Python implementation follows a standard machine learning workflow and demonstrates how text classification is performed using modern Natural Language Processing (NLP) techniques.
+
+Note: The difference in predictions does not indicate an error in either implementation. It results from differences in feature extraction, probability estimation, and implementation methodology between the manual academic approach and the Scikit-learn implementation.
 
 ## Author
 
