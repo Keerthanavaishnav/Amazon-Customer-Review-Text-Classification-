@@ -1,0 +1,10 @@
+Review,Predicted_Class,Predicted_Label,Positive_Probability,Negative_Probability
+"My son's therapist brings this toy over and he just loves it.
+He loves to move the ladder on the fire truck up and down.
+This is one of his favorite toys and he doesn't play with a lot
+of baby and toddler toys.",1,Positive,0.6475398401493387,0.35246015985066037
+"The layout of the hours are a little tricky.
+The print on each page is light grey.
+Trying to journal diapers, bottles and meds during the night
+is difficult.
+I could not use the space to make more notes.",1,Positive,0.6685091395942129,0.33149086040578696
